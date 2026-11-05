@@ -1,0 +1,25 @@
+body {
+    background: #0a0b17;
+    color: #d1d1ef;
+    font-family: Arial, sans-serif;
+}
+h2, h3 {
+    color: #98ecff;
+}
+.list {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.cell, .head {
+    border: 1px solid rgb(123, 23, 222);
+    padding: 10px;
+    text-align: center;
+}
+.head {
+    background: #300b74;
+    font-weight: bold;
+    color: #f5f6fb;
+}
